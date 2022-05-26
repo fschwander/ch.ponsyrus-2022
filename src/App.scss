@@ -1,4 +1,5 @@
-@import "colors";
+@import "styles/colors";
+@import "styles/breakpoints";
 
 .App {
   z-index: 0;
@@ -62,7 +63,7 @@
   background-color: $clr_white;
 }
 
-@media screen and (max-width: 900px) {
+@include tablet-up() {
   .App {
     border: 0 !important;
     align-self: flex-start;
@@ -97,7 +98,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@include smartphone() {
   .eventContainer {
     width: 70%;
   }
