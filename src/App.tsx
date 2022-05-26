@@ -20,8 +20,8 @@ function App() {
         </div>
 
         <div className="backgroundContainer">
-          <img className="addressImage" src={ addressImage }/>
-          <img className="houseImage" src={ houseImage }/>
+          <img alt="adresse" className="addressImage" src={ addressImage }/>
+          <img alt="ponsyrus" className="houseImage" src={ houseImage }/>
         </div>
       </div>
     </div>
