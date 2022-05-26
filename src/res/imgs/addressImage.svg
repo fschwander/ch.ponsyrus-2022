@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="704px" height="483px" viewBox="0 0 704 483" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>addressImage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-654.000000, -475.000000)">
+            <g id="addressImage" transform="translate(654.000000, 475.000000)">
+                <path d="M704,247.164134 L406.316926,204.234268 L704,0 L704,247.164134 Z M704,353.732435 L704,483 L0,483 L327.415501,258.366922 L704,353.732435 Z" id="Rectangle" fill="#50E3C2"></path>
+                <g id="Group" transform="translate(537.516575, 264.962303) rotate(8.000000) translate(-537.516575, -264.962303) translate(376.016575, 254.462303)" stroke="#50E3C2" stroke-dasharray="12,18" stroke-linecap="square" stroke-width="6">
+                    <path d="M0.0375423973,0.744588333 L322.052609,20.5897421" id="Line-17"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
