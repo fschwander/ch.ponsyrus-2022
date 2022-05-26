@@ -1,18 +1,24 @@
-$smartphone-size: 320px !default;
-$tablet-size: 720px !default;
+$smartphone-size: 420px !default;
+$tablet-size: 820px !default;
 $desktop-size: 1024px !default;
 $desktop-wide-size: 1280px !default;
 $content-width: 1200px !default; // max-width ($widedesktopsize = 1280) - 2 * 40px (Outside Gutter)
 $content-max-width: 1480px !default;
 
 @mixin smartphone {
-  @media (max-width: #{$tablet-size - 1px}) {
+  @media (max-width: #{$smartphone-size - 1}) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (min-width: $tablet-size) and (max-width: #{$desktop-size - 1px}) {
+  @media (min-width: $smartphone-size) and (max-width: #{$desktop-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-down {
+  @media (max-width: $tablet-size) {
     @content;
   }
 }
