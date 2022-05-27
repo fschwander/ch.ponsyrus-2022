@@ -54,10 +54,6 @@
 }
 
 @include tablet-down() {
-  .header {
-    margin: 16px;
-  }
-
   .header__house-img {
     max-width: 80%;
   }
