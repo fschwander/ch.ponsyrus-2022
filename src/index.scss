@@ -32,10 +32,14 @@ h2 {
   margin: 0;
 }
 
+p {
+  margin: 0 0 8px;
+}
+
 a {
   color: $clr_black;
   text-decoration: none;
-  border-bottom: 1.5px solid $clr_black;
-  padding-bottom: 1.5px
+  border-bottom: 1px solid $clr_black;
+  padding-bottom: 4px
 }
 

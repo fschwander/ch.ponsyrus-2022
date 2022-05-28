@@ -19,7 +19,7 @@
 .header__text {
   position: absolute;
   border: dotted 2.5px $clr_primary;
-  background-color: $clr_white;
+  background-color: $clr_white-aa;
   text-align: center;
   width: fit-content;
   top: 25%;
@@ -55,7 +55,7 @@
 
 @include tablet-down() {
   .header__house-img {
-    max-width: 80%;
+    max-width: 85%;
   }
 }
 
@@ -70,7 +70,7 @@
     top: unset;
     left: 50%;
     transform: translateX(-50%);
-    padding: unset;
+    padding: 16px 8px 8px;
   }
 
   .header__street-img {
