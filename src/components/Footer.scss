@@ -1,8 +1,7 @@
-@import "../styles/colors";
+@import "../styles/variables";
 
 .footer {
-  margin: 8px 8px 32px;
-  padding: 32px 8px;
+  padding: $padding_content;
   text-align: center;
-  background-color: $clr_white-aa;
+  background-color: $clr_background;
 }
