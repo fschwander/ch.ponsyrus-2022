@@ -4,6 +4,7 @@
 .header {
   position: relative;
   height: 80vh;
+  max-height: 700px;
   display: flex;
   justify-content: center;
   padding: $padding_content;
